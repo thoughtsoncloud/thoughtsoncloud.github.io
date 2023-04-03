@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="teaserimage">
+    <div class="teaserimage-image" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }})"{% endif %}>
+        Teaser Image
+    </div>
+</div>
+
+<header class="blog-header">
+    {% if site.logo %}
+      <a class="blog-logo" href="{{site.url}}{{site.baseurl}}" style="background-image: url('{{ site.logo | prepend: site.baseurl }}')">{{ site.title }}</a>
+    {% endif %}
+    <h1 class="blog-title">{{ site.title }}</h1>
+    <h2 class="blog-description">{{ site.description }}</h2>
+    <div class="custom-links">
+      {% for social in site.social %}
+        {% if social.url %}
+            <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}"{% endif %}">
+              <i class="fa fa-{{ social.icon }}"></i>
+            </a>
+            &nbsp;&nbsp;·&nbsp;&nbsp;
+        {% endif %}
+      {% endfor %}
+      <a href={{ "/about/" | prepend: site.baseurl }}>About</a>
+      &nbsp;&nbsp;&nbsp;
+      <a href={{ "/blogs/" | prepend: site.baseurl }}>Blogs</a>
+    </div>
+</header>
+
+
+
+
+<main class="content" role="main">
+
+  <h1 class="post-title"><span>Welcome to this Blogging site</span></h1>
+  
+  <h5 class="article-item"><span>What will this site contain</span></h5>
+  We intent to share our experiences of Cloud transformation Journeys. it could be Technical or Process related or a combination of both.
+  
+  <h5 class="article-item"><span>Who are the intented audience</span></h5>
+  People with Cloud background who are also part of some Cloud transofrmation journeys, looking for some additional insights, solutions or point of views.
+  
+
+</main>
