@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: post
 title:  "Solutions for migrating unstructured data from On-prem to AWS"
 date:   2023-04-01 21:36:04 +0530
-tags: migrations data aws
+tags: migrations data aws featured
 authors: 
   - Santhosh
   - Rakesh

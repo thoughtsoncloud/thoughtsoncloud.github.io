@@ -4,17 +4,17 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Cloud Tech 360"
+title: "Thoughts on Cloud"
 description: > # this means to ignore newlines until "email:"
-   A blog space for Santhosh and Rakesh
+   A blog space where we share our point of views and experiences on cloud transformation journeys
 
-email: a-mail@mail.mail
+email: raoibm@hotmail.com
 #blog logo
 logo: "/assets/images/blog-logo.jpg"
 float_logo: true # true, false (default)
 
 # blog cover
-cover: "/assets/images/sigmund-vvrjJTbuuaI-unsplash.jpg"
+cover: "/assets/images/site-header.jpg"
 
 name: 'Cloud Tech 360'
 

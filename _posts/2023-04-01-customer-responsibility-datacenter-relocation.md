@@ -2,12 +2,12 @@
 layout: post
 title:  "Customer Responsibilities - Data Center Relocation"
 date:   2023-04-01 21:36:04 +0530
-tags: migrations datacenter lift-and-shift
+tags: migrations datacenter lift-and-shift featured
 authors:
   - Santhosh
 read_time: true
 classes: wide
-image: /assets/article_images/growtika-WELyMatW3mw-unsplash.jpg
+image: /assets/article_images/2023-04-01-customer-responsibility-datacenter-relocation/relocation.jpg
 ---
 
 
